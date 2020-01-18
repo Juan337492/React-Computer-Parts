@@ -20,6 +20,7 @@ return (<CartItem feature = {feature} idx = {idx} selected = {this.props.selecte
     
         return (
           <section className="main__summary">
+            <h2>Cart</h2>
             {summary}
             <div className="summary__total">
               <div className="summary__total__label">Total</div>
